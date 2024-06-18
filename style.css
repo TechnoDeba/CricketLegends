@@ -1,0 +1,129 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #6a032c, #0841b1, #ac7105);
+    background-size: 180% 180%;
+    animation: gradient-animation 14s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .omg {
+    font-family: "Bebas Neue", sans-serif;
+text-align: center;
+padding-left: 25%;
+padding-right: 25%;
+    padding-top: 12%;
+    padding-bottom:12%;
+    line-height: 65px;
+    color:burlywood;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  .flex {
+    display:flex;
+    flex-direction: column;
+  }
+  .main-box {
+    position:relative;
+    
+  }
+  .main-box p {
+    font-family: "Playwrite MX", cursive;
+    background-color: lightseagreen;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 332px;
+    font-size: 16px;
+  }
+
+  .caro-para {
+    font-family: "Playwrite MX", cursive;
+    text-align: center;
+    color:rgb(232, 234, 244);
+    background-color: transparent;
+    padding-top:15px;
+    padding-left:20%;
+    padding-right: 20%;
+    padding-bottom: 2px;
+  }
+  .quotes {
+    background-image: url(./Gallery/Himachal-Pradesh-Cricket-Association-Stadium.webp);
+    background-size: cover;
+    background: auto;
+    padding-top: 70px;
+    padding-bottom:50px ;
+    background-attachment:fixed;
+    position: absolute;
+    height: 500vh;
+    top:1260px;
+    
+  }
+  .caro {
+    max-width: 60%;
+    margin:auto;
+  }
+  .caro-img {
+    height:300px;
+    width:280px;
+    border-radius: 50%;
+    margin:auto;
+  }
+  .carousel {
+    padding-bottom: 20px;
+  }
+  
+  .foot {
+    color:aliceblue;
+    position: relative;
+    top: 2250px;
+    text-align: center;
+    padding:10px 20px 10px 20px;
+    transition:color 1s ease-in 1s;
+    background: linear-gradient(300deg, #ebe413, #05881b, #1c1289);
+    background-size: 180% 180%;
+    animation: gradient-animation 14s ease infinite;
+    opacity:0.4;
+    margin-bottom: 0;
+  }
+  .foot:hover {
+    color:lightskyblue;
+    opacity:0.8;
+  }
+.apc {
+  color:aqua;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.apc:hover {
+  color:#ac7105;
+  font-size: 30px;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
